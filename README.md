@@ -12,20 +12,20 @@ https://imgur.com/CeZ5c5W
 
 Some classes:
 
-__( cgui::cColor - can store color )
-(__EXAMPLE__)
+    ( cgui::cColor - can store color )
+    (EXAMPLE)
 cgui::cColor CLR(255,255,255);
 COLORREF LCR_REF = CLR.GetREF()
 
 
-__( cgmath::Vector2 - can store 2d vector )
-(__EXAMPLE__)
+    ( cgmath::Vector2 - can store 2d vector )
+    (EXAMPLE)
 cgmath::Vector2 VEC(0,0);
 VEC = cgmath::Vector2(800,600);
 
 
-__( cgui::cWindow - used to easily acces to console window, resize console, etc )
-(__EXAMPLE__)
+    ( cgui::cWindow - used to easily acces to console window, resize console, etc )
+    (EXAMPLE)
 cgui::cWindow WIN( cgmath::Vector2(800,600) ) - create window class, and win size
 WIN.SetBgColor( cgui::cColor ) - set background color
 WIN.Update() - Update window
@@ -41,8 +41,8 @@ while (1) {
 }
       
       
-__( cgui::cButton - just a button )
-(__EXAMPLE__)
+    ( cgui::cButton - just a button )
+    (EXAMPLE)
 cgui::cButton BTN;
 BTN.SetPos - Set position of button
 BTN.SetSize - Set size of button
@@ -62,8 +62,8 @@ if ( BTN.Pressed() ) {
 }
 
 
-__( cgui::cLabel - just a label )
-(__EXAMPLE__)
+    ( cgui::cLabel - just a label )
+    (EXAMPLE)
 cgui::cLabel LABL;
 LABL.SetText( LPCTSTR ) - Set text of Label
 LABL.SetPos( cgmath::Vector2 ) - Set position of Label
